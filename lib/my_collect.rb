@@ -4,4 +4,5 @@ def my_collect(array)
     newar << yield(array[i])
     i = i + 1
   end
+  newar
 end
